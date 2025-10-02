@@ -13,6 +13,15 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul, li {
+  list-style: none;    /* убираем маркеры/нумерацию */
+}
+
 .upper_text {
     background-color: black;
     padding: 5px;
@@ -76,21 +85,22 @@ body {
     font-family: Pacifico;
     font-size: 86px;
     color: #dedee0;
+    text-shadow: 4px 4px 8px black;
 }
 .home_image h2 {
     top: 31.5%;
     left: 27.5%;
-    color: red;
+    color: #c41616;
     text-shadow: 3px 3px 1px black; /* сдвиг X, Y, размытие, цвет */
 }
 
 .home_image h3 {
-    color: red;
+    color: #a1dde5;
     font-size: 30px;
-    font-weight: normal;
+    font-weight: 500;
     top: 37%;
     left: 20%;
-    text-shadow: 3px 3px 4px black;
+    text-shadow: 4px 4px 4px black;
 }
 
 .home_image p {
@@ -98,5 +108,15 @@ body {
     font-size: 18px;
     top: 42%;
     left: 20%;
-    text-shadow: 3px 3px 4px black;
+    text-shadow: 3px 3px 1px black;
+}
+
+.shop_buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.shop_buttons ul li {
+    display: inline-block;
+    margin-right: 20px;
 }
