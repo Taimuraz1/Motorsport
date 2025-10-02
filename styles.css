@@ -26,22 +26,22 @@ body {
 
 .search_bar {
     position: relative;
-    background-color: #edebeb;   /* серый цвет */
-    width: 100%;                 /* на всю ширину */
-    height: 80px;                /* можно менять */
+    background-color: #edebeb;
+    width: 100%;
+    height: 80px;
     display: flex;
-    justify-content: center;     /* горизонтально по центру */
-    align-items: center;         /* вертикально по центру */
-    border: 3px solid #919091;      /* рамка */
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #919091;     
 }
 
 .search_input {
-    width: 800px;   /* ширина поля */
+    width: 800px;   /* ШИРИНА ПОИСКОВОГО ОКНА */
     padding: 8px 12px;
     font-size: 16px;
     border: 3px solid #b8b6b6;
     border-radius: 15px;
-    margin-left: 220px; /* сдвиг вправо только input */
+    margin-left: 220px; /* СДВИГАЕТ ПОИСКОВИК ВПРАВО */
 }
 
 .home_icon {
@@ -52,6 +52,51 @@ body {
     border-radius: 15px;
 }
 
+.home_image {
+    width: 100%;
+    height: 750px;
+    background-image: url('images/main_image.jpg');
+    background-size: cover;
+    background-position: center -200px; /* ПЕРЕМЕЩЕНИЕ ГЛАВНОГО ИЗОБРЖАЖЕНИЯ ВВЕРХ/ВНИЗ */
+    background-repeat: no-repeat;
+    position: relative;
+}
 
+.home_image h1,
+.home_image h2,
+.home_image h3,
+.home_image p {
+    position: absolute; /* Позволяет свободно размещать */
+    margin: 0;
+}
 
+.home_image h1 {
+    top: 15%;      /* смещение сверху от 0% до 100% */
+    left: 20%;      /* смещение слева от 0% до 100% */
+    font-family: Pacifico;
+    font-size: 86px;
+    color: #dedee0;
+}
+.home_image h2 {
+    top: 31.5%;
+    left: 27.5%;
+    color: red;
+    text-shadow: 3px 3px 1px black; /* сдвиг X, Y, размытие, цвет */
+}
 
+.home_image h3 {
+    color: red;
+    font-size: 30px;
+    font-weight: normal;
+    top: 37%;
+    left: 20%;
+    text-shadow: 3px 3px 4px black;
+}
+
+.home_image p {
+    color: white;
+    font-size: 18px;
+    top: 42%;
+    left: 20%;
+    text-shadow: 3px 3px 4px black;
+}
