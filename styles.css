@@ -15,7 +15,7 @@ body {
 
 .upper_text {
     background-color: black;
-    padding-top: 5px;
+    padding: 5px;
 }
 
 .upper_text p {
@@ -47,6 +47,9 @@ body {
 .home_icon {
     position: absolute;
     left: 500px;
+    border: 2px solid #a6a6a6;
+    padding: 5px 12px;
+    border-radius: 15px;
 }
 
 
