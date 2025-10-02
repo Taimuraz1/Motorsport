@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.container {
+    margin: 0px 350px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.upper_text {
+    background-color: black;
+    padding-top: 5px;
+}
+
+.upper_text p {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+.search_bar {
+    position: relative;
+    background-color: #edebeb;   /* серый цвет */
+    width: 100%;                 /* на всю ширину */
+    height: 80px;                /* можно менять */
+    display: flex;
+    justify-content: center;     /* горизонтально по центру */
+    align-items: center;         /* вертикально по центру */
+    border: 3px solid #919091;      /* рамка */
+}
+
+.search_input {
+    width: 800px;   /* ширина поля */
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 3px solid #b8b6b6;
+    border-radius: 15px;
+    margin-left: 220px; /* сдвиг вправо только input */
+}
+
+.home_icon {
+    position: absolute;
+    left: 500px;
+}
+
+
+
+
