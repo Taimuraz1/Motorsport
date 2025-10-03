@@ -61,6 +61,7 @@ ul, li {
     border-radius: 15px;
 }
 
+/* ЗАДНИЙ ФОН С СУПЕРКАРАМИ */
 .home_image {
     width: 100%;
     height: 750px;
@@ -119,11 +120,33 @@ ul, li {
 
 .car_box {
     width: 1200px;
-    height: 400px;
+    height: 800px;
     background-color: #4d0404;
     position: absolute;
     top: 70%;
-    border: 2px solid black;
+    border: 2px solid #f51b1b;
+    z-index: 4;
+}
+/* КРАСНЫЙ ФОН МАГАЗИНА */
+.red_img {
+    width: 100%;
+    height: 750px;
+    background-image: url('images/wall_image.jpg');
+    background-size: cover;
+    background-position: center -200px; /* ПЕРЕМЕЩЕНИЕ ГЛАВНОГО ИЗОБРЖАЖЕНИЯ ВВЕРХ/ВНИЗ */
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 75%;
+    z-index: 3;
+}
+
+.red_border {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 7px;          /* толщина рамки */
+    background-color: #b50b0b; /* цвет рамки */
 }
 
 .shop_buttons ul {
@@ -139,11 +162,11 @@ ul, li {
     border: 1px solid red;
     border-radius: 6px;
     background-color: #e01b1b;
-    display: flex;            /* чтобы текст центрировался */
-    justify-content: center;  /* горизонтальное центрирование */
-    align-items: center;      /* вертикальное центрирование */
-    padding: 0;               /* убираем внутренние отступы */
-    box-sizing: border-box;   /* учитываем границы при ширине/высоте */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .shop_buttons ul li:hover {
