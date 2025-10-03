@@ -63,8 +63,8 @@ ul, li {
 
 /* ЗАДНИЙ ФОН С СУПЕРКАРАМИ */
 .home_image {
-    width: 100%;
-    height: 750px;
+    max-width: 100%;
+    height: 85vh;
     background-image: url('images/main_image.jpg');
     background-size: cover;
     background-position: center -200px; /* ПЕРЕМЕЩЕНИЕ ГЛАВНОГО ИЗОБРЖАЖЕНИЯ ВВЕРХ/ВНИЗ */
@@ -84,8 +84,8 @@ ul, li {
     top: 15%;      /* смещение сверху от 0% до 100% */
     left: 20%;      /* смещение слева от 0% до 100% */
     font-family: Pacifico;
-    font-size: 86px;
-    color: #dedee0;
+    font-size: 5.5rem;
+    color: #7f7f7f;
     text-shadow: 4px 4px 8px black;
 }
 .home_image h2 {
@@ -97,7 +97,7 @@ ul, li {
 
 .home_image h3 {
     color: #a1dde5;
-    font-size: 30px;
+    font-size: 1.8rem;
     font-weight: 500;
     top: 37%;
     left: 20%;
@@ -106,7 +106,7 @@ ul, li {
 
 .home_image p {
     color: white;
-    font-size: 18px;
+    font-size: 1.1rem;
     top: 42%;
     left: 20%;
     text-shadow: 3px 3px 1px black;
@@ -119,18 +119,19 @@ ul, li {
 }
 
 .car_box {
-    width: 1200px;
-    height: 800px;
+    width: 75rem;
+    height: 55rem;
     background-color: #4d0404;
     position: absolute;
     top: 70%;
     border: 2px solid #f51b1b;
     z-index: 4;
 }
+
 /* КРАСНЫЙ ФОН МАГАЗИНА */
 .red_img {
     width: 100%;
-    height: 750px;
+    height: 100%;
     background-image: url('images/wall_image.jpg');
     background-size: cover;
     background-position: center -200px; /* ПЕРЕМЕЩЕНИЕ ГЛАВНОГО ИЗОБРЖАЖЕНИЯ ВВЕРХ/ВНИЗ */
@@ -177,7 +178,7 @@ ul, li {
     display: flex;
     width: 100%;
     height: 100%;
-    font-size: 20px;          /* размер текста можно менять */
+    font-size: 1.25rem;          /* размер текста можно менять */
     color: white;
     align-items: center;
     text-align: center;       /* чтобы текст был по центру */
