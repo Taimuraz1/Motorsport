@@ -28,6 +28,13 @@ ul, li {
     color: white;
 }
 
+/* ФИКСИРОВАН */
+.fixed_pos {
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+}
+
 /* ПОИСКОВИК И ИКОНКА ДОМА */
 .search_bar {
     background-color: #edebeb;
@@ -131,6 +138,9 @@ ul, li {
     border: 2px solid #f51b1b;
     z-index: 4;
 }
+
+
+
 
 /* КРАСНЫЙ ФОН МАГАЗИНА */
 .red_img {
