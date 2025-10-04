@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
+    cursor: url("images/cursor.cur"), auto;
 }
 
 a {
@@ -123,7 +124,9 @@ ul, li {
     text-transform: uppercase;
 }
 
-/* МАГАЗИН */
+/* МАГАЗИН  МАГАЗИН  МАГАЗИН  МАГАЗИН  МАГАЗИН  МАГАЗИН */
+/* МАГАЗИН  МАГАЗИН  МАГАЗИН  МАГАЗИН  МАГАЗИН  МАГАЗИН */
+/* МАГАЗИН  МАГАЗИН  МАГАЗИН  МАГАЗИН  МАГАЗИН  МАГАЗИН */
 .shop_section {
     display: flex;
     justify-content: center;
@@ -139,8 +142,63 @@ ul, li {
     z-index: 4;
 }
 
+.car_shop {
+    display: flex;
+}
 
+.card1 {
+    position: relative;
+    left: 1.5rem;
+    border: 1px solid #6e6b6b;
+}
 
+.card1 .poloska {
+    width: 360px;
+    height: 65px;
+    background-color: #ede1e1;
+}
+
+.poloska p {
+    text-transform: uppercase;
+    padding: 13px 10px;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.card1 img {
+    width: 360px;
+    height: 240px;
+    display: block;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between; /* текст слева, цена справа */
+    align-items: center;            /* выравнивание по вертикали */
+    width: 360px;
+    height: 65px;                   /* аналогично высоте полоски */
+    background-color: black;
+    padding: 0 10px;                /* немного внутреннего отступа */
+    box-sizing: border-box;
+}
+
+.card1 h1 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.card1 .price {
+    font-weight: bold;
+    color: white;
+}
+
+.price {
+    background-color: #e01b1b;
+    padding: 22px 14px;
+    position: relative;
+    left: 10px;
+}
 
 /* КРАСНЫЙ ФОН МАГАЗИНА */
 .red_img {
