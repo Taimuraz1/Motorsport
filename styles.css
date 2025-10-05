@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     cursor: url("images/cursor.cur"), auto;
 }
 
@@ -31,9 +31,9 @@ ul, li {
 
 /* ФИКСИРОВАН */
 .fixed_pos {
-    z-index: 10;
     position: fixed;
     width: 100%;
+    z-index: 10;
 }
 
 /* ПОИСКОВИК И ИКОНКА ДОМА */
@@ -71,57 +71,79 @@ ul, li {
     border-radius: 15px;
 }
 
-/* ЗАДНИЙ ФОН С СУПЕРКАРАМИ */
-.home_image {
-    max-width: 100%;
-    height: 85vh;
-    background-image: url('images/main_image.jpg');
-    background-size: cover;
-    background-position: center -200px; /* ПЕРЕМЕЩЕНИЕ ГЛАВНОГО ИЗОБРЖАЖЕНИЯ ВВЕРХ/ВНИЗ */
-    background-repeat: no-repeat;
-    position: relative;
+.home_image{
+  width: 100%;
+  height: 85vh;        /* фиксируем высоту окна-«окна просмотра» */
+  position: relative;
+  overflow: hidden;    /* скрываем лишнее */
+}
+
+.home_image img{
+  position: absolute;  /* занимаем всё «окно» */
+  inset: 0;             /* top:0; right:0; bottom:0; left:0; */
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;           /* масштабируем, сохраняя пропорции */
+  object-position: 50% 30%;   /* <-- здесь задаём кадр: по горизонтали, по вертикали */
 }
 
 /* БОГАТЫЙ ВЫБОР H1 H2 H3 P */
+.main_t {
+  display: inline-block;  
+  position: relative;  
+  justify-content: center; /* по центру по горизонтали */
+  align-items: center;     /* по центру по вертикали */
+  height: 100vh;           /* на всю высоту экрана */
+  flex-direction: column;  /* чтобы текст шёл столбиком */
+  transform: translate(70%, -65%); /* чуть правее и выше */
+
+}
+
 .main_text {
-    position: absolute;
-    top: 25%;
-    margin: 0 350px;
-    text-align: left;
+  position: relative;
 }
 
 .main_text h1 {
-    top: 18%;      /* смещение сверху от 0% до 100% */
-    font-family: Pacifico;
-    font-size: 7rem;
-    color: #7f7f7f;
-    text-shadow: 4px 4px 8px black;
+  font-size: 110px;
+  color: #8a8484;
+  margin: 0;
+  position: relative;
+  font-family: Pacifico;
 }
+
 .main_text h2 {
-    top: 60%;
-    left: 39%;
-    color: #c41616;
-    text-shadow: 3px 3px 1px black; /* сдвиг X, Y, размытие, цвет */
-    text-transform: uppercase;
-    font-size: 2rem;
-    position: absolute;
+  font-size: 32px;
+  color: #b01c1c;
+  margin: 10px 0 0 0;
+  position: relative;
+  left: 185px;  /* h2 немного правее h1 */
+  bottom: 45px;
+  text-transform: uppercase;
+  font-style: italic;
 }
 
 .main_text h3 {
-    position: relative;
-    margin-top: 0.5em;
-    color: #a1dde5;
-    font-size: 2rem;
-    font-weight: 500;
-    text-shadow: 4px 4px 4px black;
-    text-transform: uppercase;
+  font-size: 36px;
+  color: #b81212;
+  margin: 15px 0 0 0;
+  position: relative;
+  left: 0px;
+  bottom: 50px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
 }
 
 .main_text p {
-    color: white;
-    font-size: 1.25rem;
-    text-shadow: 3px 3px 1px black;
-    text-transform: uppercase;
+  font-size: 22px;
+  color: #fff;
+  margin: 10px 0 0 0;
+  position: relative;
+  left: 0px;
+  bottom: 55px;
+  text-transform: uppercase;
+  font-weight: normal;
 }
 
 /* МАГАЗИН  МАГАЗИН  МАГАЗИН  МАГАЗИН  МАГАЗИН  МАГАЗИН */
@@ -144,8 +166,12 @@ ul, li {
 
 .car_shop {
     display: flex;
+    flex-wrap: wrap;
+    gap: 0.1rem; /* расстояние между карточками */
 }
 
+/* АВТО КАРТОЧКИ АВТО КАРТОЧКИ АВТО КАРТОЧКИ АВТО КАРТОЧКИ 
+АВТО КАРТОЧКИ АВТО КАРТОЧКИ АВТО КАРТОЧКИ АВТО КАРТОЧКИ*/
 .card1 {
     position: relative;
     left: 1.5rem;
@@ -163,6 +189,7 @@ ul, li {
     padding: 13px 10px;
     font-weight: 500;
     font-size: 1.1rem;
+    text-shadow: none;
 }
 
 .card1 img {
@@ -186,6 +213,7 @@ ul, li {
     text-transform: uppercase;
     font-size: 1.2rem;
     color: white;
+    font-weight: normal;
 }
 
 .card1 .price {
@@ -199,6 +227,122 @@ ul, li {
     position: relative;
     left: 10px;
 }
+
+/* АВТО 2 */
+.card2 {
+    position: relative;
+    left: 4%;
+    border: 1px solid #6e6b6b;
+}
+
+.card2 .poloska2 {
+    width: 360px;
+    height: 65px;
+    background-color: #ede1e1;
+}
+
+.poloska2 p {
+    text-transform: uppercase;
+    padding: 13px 10px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-shadow: none;
+}
+
+.card2 img {
+    width: 360px;
+    height: 240px;
+    display: block;
+}
+
+.info2 {
+    display: flex;
+    justify-content: space-between; /* текст слева, цена справа */
+    align-items: center;            /* выравнивание по вертикали */
+    width: 360px;
+    height: 65px;                   /* аналогично высоте полоски */
+    background-color: black;
+    padding: 0 10px;                /* немного внутреннего отступа */
+    box-sizing: border-box;
+}
+
+.card2 h1 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: normal;
+}
+
+.card2 .price2 {
+    font-weight: bold;
+    color: white;
+}
+
+.price2 {
+    background-color: #e01b1b;
+    padding: 22px 14px;
+    position: relative;
+    left: 10px;
+}
+
+/* АВТО 3 | АВТО 3 | АВТО 3 | АВТО 3 | АВТО 3 | АВТО 3 | 
+АВТО 3 | АВТО 3 | АВТО 3 | АВТО 3 | АВТО 3 | АВТО 3 |  */
+.card3 {
+    position: relative;
+    left: 7%;
+    border: 1px solid #6e6b6b;
+}
+
+.card3 .poloska3 {
+    width: 360px;
+    height: 65px;
+    background-color: #ede1e1;
+}
+
+.poloska3 p {
+    text-transform: uppercase;
+    padding: 13px 10px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-shadow: none;
+}
+
+.card3 img {
+    width: 360px;
+    height: 240px;
+    display: block;
+}
+
+.info3 {
+    display: flex;
+    justify-content: space-between; /* текст слева, цена справа */
+    align-items: center;            /* выравнивание по вертикали */
+    width: 360px;
+    height: 65px;                   /* аналогично высоте полоски */
+    background-color: black;
+    padding: 0 10px;                /* немного внутреннего отступа */
+    box-sizing: border-box;
+}
+
+.card3 h1 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: normal;
+}
+
+.card3 .price3 {
+    font-weight: bold;
+    color: white;
+}
+
+.price3 {
+    background-color: #e01b1b;
+    padding: 22px 14px;
+    position: relative;
+    left: 10px;
+}
+
 
 /* КРАСНЫЙ ФОН МАГАЗИНА */
 .red_img {
