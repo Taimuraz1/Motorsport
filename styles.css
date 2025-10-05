@@ -71,11 +71,12 @@ ul, li {
     border-radius: 15px;
 }
 
-.home_image{
+.home_image {
   width: 100%;
   height: 85vh;        /* фиксируем высоту окна-«окна просмотра» */
   position: relative;
   overflow: hidden;    /* скрываем лишнее */
+  z-index: -1;
 }
 
 .home_image img{
@@ -96,7 +97,7 @@ ul, li {
   align-items: center;     /* по центру по вертикали */
   height: 100vh;           /* на всю высоту экрана */
   flex-direction: column;  /* чтобы текст шёл столбиком */
-  transform: translate(70%, -65%); /* чуть правее и выше */
+  transform: translate(70%, -67%); /* чуть правее и выше */
 
 }
 
@@ -152,15 +153,16 @@ ul, li {
 .shop_section {
     display: flex;
     justify-content: center;
+    margin-top: -1130px;
+    position: relative;
 }
 
 .car_box {
+    position: relative;
     width: 75rem;
-    height: 55rem;
+    height: 65rem;
     background-color: #4d0404;
-    position: absolute;
-    top: 70%;
-    border: 2px solid #f51b1b;
+    border: 2px solid #8f0606;
     z-index: 4;
 }
 
@@ -345,25 +347,24 @@ ul, li {
 
 
 /* КРАСНЫЙ ФОН МАГАЗИНА */
-.red_img {
-    width: 100%;
-    height: 100%;
-    background-image: url('images/wall_image.jpg');
-    background-size: cover;
-    background-position: center -200px; /* ПЕРЕМЕЩЕНИЕ ГЛАВНОГО ИЗОБРЖАЖЕНИЯ ВВЕРХ/ВНИЗ */
-    background-repeat: no-repeat;
+.shop_bg {
     position: absolute;
-    top: 75%;
-    z-index: 3;
-}
-
-.red_border {
-    position: absolute;
-    top: 0;
+    top: 50px;
     left: 0;
     width: 100%;
-    height: 7px;          /* толщина рамки */
-    background-color: #b50b0b; /* цвет рамки */
+    height: 1100px;
+    background: url('images/wall_image.jpg') center/cover no-repeat;
+    z-index: 1; /* ниже контента */
+}
+
+.line_shop {
+  position: absolute;
+  top: 50px;          /* сверху родителя */
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background-color: #b00b0b;  /* красная */
+  z-index: 2;      /* поверх фона */
 }
 
 .shop_buttons ul {
