@@ -15,7 +15,7 @@ a {
     cursor: url("images/cursor.cur"), pointer;
 }
 
-ul, li {
+ul {
   list-style: none;    /* убираем маркеры/нумерацию */
 }
 
@@ -108,7 +108,6 @@ ul, li {
   left: 185px;
   bottom: 45px;
   text-transform: uppercase;
-  font-style: italic;
 }
 
 .main_text h3 {
@@ -134,23 +133,34 @@ ul, li {
   font-weight: normal;
 }
 
-/* МАГАЗИН  МАГАЗИН  МАГАЗИН  МАГАЗИН  МАГАЗИН  МАГАЗИН */
-/* МАГАЗИН  МАГАЗИН  МАГАЗИН  МАГАЗИН  МАГАЗИН  МАГАЗИН */
-/* МАГАЗИН  МАГАЗИН  МАГАЗИН  МАГАЗИН  МАГАЗИН  МАГАЗИН */
+/* КРАСНЫЙ ФОН МАГАЗИНА */
+.red_bg {
+    background-image: url(images/wall_image.jpg);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+/* МАГАЗИН  МАГАЗИН  МАГАЗИН
+  МАГАЗИН  МАГАЗИН  МАГАЗИН */
 .shop_section {
     display: flex;
     justify-content: center;
     position: relative;
+    margin-top: -100px;
 }
 
 .car_box {
     position: relative;
-    bottom: 200px;
     width: 75rem;
-    height: 65rem;
+    min-height: 65rem; /* вместо height */
     background-color: #4d0404;
     border: 2px solid #8f0606;
     z-index: 4;
+    margin-top: -100px;
 }
 
 .car_shop {
@@ -332,10 +342,6 @@ ul, li {
     left: 10px;
 }
 
-
-/* КРАСНЫЙ ФОН МАГАЗИНА */
-
-
 .shop_buttons ul {
     display: flex;
     justify-content: center;
@@ -370,7 +376,7 @@ ul, li {
     text-align: center;       /* чтобы текст был по центру */
     justify-content: center;
     overflow: hidden;         /* если текст слишком большой, не вылезает */
-    white-space: nowrap;      /* текст в одну строку */
+    white-space: nowrap;
 }
 
 .shop_buttons ul li:hover a {
