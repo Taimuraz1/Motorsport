@@ -144,6 +144,22 @@ ul {
     z-index: -1;
 }
 
+.red_line {
+    border-top: 8px solid #a30808;
+}
+
+/* ЧЁРНЫЙ ПРЯМОУГОЛЬНИК 
+ЧЁРНЫЙ ПРЯМОУГОЛЬНИК */
+.black {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+}
+
+.bottom_red {
+    border-top: 8px solid #a30808;
+}
+
 /* МАГАЗИН  МАГАЗИН  МАГАЗИН
   МАГАЗИН  МАГАЗИН  МАГАЗИН */
 .shop_section {
