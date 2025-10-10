@@ -160,6 +160,45 @@ ul {
     border-top: 8px solid #a30808;
 }
 
+/* КАРТИНКИ КАРТИНКИ КАРТИНКИ ЛОГО */
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 27px 0;
+    gap: 7%;
+}
+
+.logos .progen {
+    width: 96px;
+    height: 96px;
+}
+
+.logos .benefactor {
+    width: 96px;
+    height: 96px;
+}
+
+.logos .grotti {
+    width: 96px;
+    height: 96px;
+}
+
+.logos .overflod {
+    width: 96px;
+    height: 96px;
+}
+
+.logos .pegassi {
+    width: 96px;
+    height: 96px;
+}
+
+.logos .enus {
+    width: 96px;
+    height: 96px;
+}
+
 /* МАГАЗИН  МАГАЗИН  МАГАЗИН
   МАГАЗИН  МАГАЗИН  МАГАЗИН */
 .shop_section {
