@@ -403,6 +403,191 @@ ul {
     position: relative;
     left: 10px;
 }
+/* 2 ЛИНИЯ АВТО 2 ЛИНИЯ АВТО 2 ЛИНИЯ АВТО 
+2 ЛИНИЯ АВТО 2 ЛИНИЯ АВТО 2 ЛИНИЯ АВТО */
+.car_shop2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.5%; /* расстояние между карточками */
+    position: relative;
+    top: 25px;
+}
+
+/* АВТО 4 АВТО 4 АВТО 4 АВТО 4 АВТО 4 
+АВТО 4 АВТО 4 АВТО 4 АВТО 4 АВТО 4 АВТО 4 */
+.card4 {
+    position: relative;
+    left: 25px;
+    border: 1px solid #6e6b6b;
+}
+
+.card4 .poloska4 {
+    width: 360px;
+    height: 65px;
+    background-color: #ede1e1;
+    border: 1px solid gray;
+}
+
+.poloska4 p {
+    text-transform: uppercase;
+    padding: 13px 10px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-shadow: none;
+}
+
+.card4 img {
+    width: 360px;
+    height: 240px;
+    display: block;
+}
+
+.info4 {
+    display: flex;
+    justify-content: space-between; /* текст слева, цена справа */
+    align-items: center;            /* выравнивание по вертикали */
+    width: 360px;
+    height: 65px;                   /* аналогично высоте полоски */
+    background-color: black;
+    padding: 0 10px;                /* немного внутреннего отступа */
+    box-sizing: border-box;
+}
+
+.card4 h1 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: normal;
+}
+
+.card4 .price4 {
+    font-weight: bold;
+    color: white;
+}
+
+.price4 {
+    background-color: #e01b1b;
+    padding: 22px 14px;
+    position: relative;
+    left: 10px;
+}
+
+/* АВТО 5 АВТО 5 АВТО 5 АВТО 5 АВТО 5  
+АВТО 5 АВТО 5 АВТО 5 АВТО 5 АВТО 5 */
+.card5 {
+    position: relative;
+    left: 1%;
+    border: 1px solid #6e6b6b;
+}
+
+.card5 .poloska5 {
+    width: 360px;
+    height: 65px;
+    background-color: #ede1e1;
+    border: 1px solid gray;
+}
+
+.poloska5 p {
+    text-transform: uppercase;
+    padding: 13px 10px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-shadow: none;
+}
+
+.card5 img {
+    width: 360px;
+    height: 240px;
+    display: block;
+}
+
+.info5 {
+    display: flex;
+    justify-content: space-between; /* текст слева, цена справа */
+    align-items: center;            /* выравнивание по вертикали */
+    width: 360px;
+    height: 65px;                   /* аналогично высоте полоски */
+    background-color: black;
+    padding: 0 10px;                /* немного внутреннего отступа */
+    box-sizing: border-box;
+}
+
+.card5 h1 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: normal;
+}
+
+.card5 .price5 {
+    font-weight: bold;
+    color: white;
+}
+
+.price5 {
+    background-color: #e01b1b;
+    padding: 22px 14px;
+    position: relative;
+    left: 10px;
+}
+
+/* АВТО 6 АВТО 6 АВТО 6 АВТО 6 АВТО 6 
+АВТО 6 АВТО 6 АВТО 6 АВТО 6 АВТО 6 */
+.card6 {
+    position: relative;
+    border: 1px solid #6e6b6b;
+}
+
+.card6 .poloska6 {
+    width: 360px;
+    height: 65px;
+    background-color: #ede1e1;
+    border: 1px solid gray;
+}
+
+.poloska6 p {
+    text-transform: uppercase;
+    padding: 13px 10px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-shadow: none;
+}
+
+.card6 img {
+    width: 360px;
+    height: 240px;
+    display: block;
+}
+
+.info6 {
+    display: flex;
+    justify-content: space-between; /* текст слева, цена справа */
+    align-items: center;            /* выравнивание по вертикали */
+    width: 360px;
+    height: 65px;                   /* аналогично высоте полоски */
+    background-color: black;
+    padding: 0 10px;                /* немного внутреннего отступа */
+    box-sizing: border-box;
+}
+
+.card6 h1 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: normal;
+}
+
+.card6 .price6 {
+    font-weight: bold;
+    color: white;
+}
+
+.price6 {
+    background-color: #e01b1b;
+    padding: 22px 14px;
+    position: relative;
+    left: 10px;
+}
 
 .shop_buttons ul {
     display: flex;
