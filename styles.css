@@ -226,14 +226,14 @@ ul {
 .car_shop {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.1rem; /* расстояние между карточками */
+    gap: 3.5%; /* расстояние между карточками */
 }
 
 /* АВТО КАРТОЧКИ АВТО КАРТОЧКИ АВТО КАРТОЧКИ АВТО КАРТОЧКИ 
 АВТО КАРТОЧКИ АВТО КАРТОЧКИ АВТО КАРТОЧКИ АВТО КАРТОЧКИ*/
 .card1 {
     position: relative;
-    left: 1.5rem;
+    left: 25px;
     border: 1px solid #6e6b6b;
 }
 
@@ -291,7 +291,7 @@ ul {
 /* АВТО 2 */
 .card2 {
     position: relative;
-    left: 4%;
+    left: 1%;
     border: 1px solid #6e6b6b;
 }
 
@@ -350,7 +350,6 @@ ul {
 АВТО 3 | АВТО 3 | АВТО 3 | АВТО 3 | АВТО 3 | АВТО 3 |  */
 .card3 {
     position: relative;
-    left: 7%;
     border: 1px solid #6e6b6b;
 }
 
