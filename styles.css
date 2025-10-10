@@ -165,38 +165,43 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 27px 0;
+    margin: 44px 0;
     gap: 7%;
 }
 
 .logos .progen {
-    width: 96px;
-    height: 96px;
+    width: 56px;
+    height: 62px;
 }
 
 .logos .benefactor {
-    width: 96px;
-    height: 96px;
+    width: 56px;
+    height: 62px;
 }
 
 .logos .grotti {
-    width: 96px;
-    height: 96px;
+    width: 56px;
+    height: 62px;
 }
 
 .logos .overflod {
-    width: 96px;
-    height: 96px;
+    width: 56px;
+    height: 62px;
 }
 
 .logos .pegassi {
-    width: 96px;
-    height: 96px;
+    width: 56px;
+    height: 62px;
+}
+
+.logos .vapid {
+    width: 82px;
+    height: 62px;
 }
 
 .logos .enus {
-    width: 96px;
-    height: 96px;
+    width: 56px;
+    height: 62px;
 }
 
 /* МАГАЗИН  МАГАЗИН  МАГАЗИН
@@ -211,7 +216,7 @@ ul {
 .car_box {
     position: relative;
     width: 75rem;
-    min-height: 65rem; /* вместо height */
+    min-height: 75rem; /* вместо height */
     background-color: #4d0404;
     border: 2px solid #8f0606;
     z-index: 4;
@@ -236,6 +241,7 @@ ul {
     width: 360px;
     height: 65px;
     background-color: #ede1e1;
+    border: 1px solid gray;
 }
 
 .poloska p {
@@ -293,6 +299,7 @@ ul {
     width: 360px;
     height: 65px;
     background-color: #ede1e1;
+    border: 1px solid gray;
 }
 
 .poloska2 p {
@@ -351,6 +358,7 @@ ul {
     width: 360px;
     height: 65px;
     background-color: #ede1e1;
+    border: 1px solid gray;
 }
 
 .poloska3 p {
