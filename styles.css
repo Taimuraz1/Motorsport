@@ -216,7 +216,7 @@ ul {
 .car_box {
     position: relative;
     width: 75rem;
-    min-height: 75rem; /* вместо height */
+    min-height: 84rem; /* вместо height */
     background-color: #4d0404;
     border: 2px solid #8f0606;
     z-index: 4;
@@ -410,7 +410,7 @@ ul {
     flex-wrap: wrap;
     gap: 3.5%; /* расстояние между карточками */
     position: relative;
-    top: 25px;
+    top: 2%;
 }
 
 /* АВТО 4 АВТО 4 АВТО 4 АВТО 4 АВТО 4 
@@ -588,6 +588,76 @@ ul {
     position: relative;
     left: 10px;
 }
+
+/* ЛИНИЯ 3 ЛИНИЯ 3 ЛИНИЯ 3 
+ЛИНИЯ 3 ЛИНИЯ 3 ЛИНИЯ 3 */
+.car_shop3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.5%;
+    position: relative;
+    top: 4%;
+}
+
+/* АВТО 7 АВТО 7 АВТО 7 
+АВТО 7 АВТО 7 АВТО 7 */
+.card7 {
+    position: relative;
+    left: 25px;
+    border: 1px solid #6e6b6b;
+}
+
+.card7 .poloska7 {
+    width: 360px;
+    height: 65px;
+    background-color: #ede1e1;
+    border: 1px solid gray;
+}
+
+.poloska7 p {
+    text-transform: uppercase;
+    padding: 13px 10px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-shadow: none;
+}
+
+.card7 img {
+    width: 360px;
+    height: 240px;
+    display: block;
+}
+
+.info7 {
+    display: flex;
+    justify-content: space-between; /* текст слева, цена справа */
+    align-items: center;            /* выравнивание по вертикали */
+    width: 360px;
+    height: 65px;                   /* аналогично высоте полоски */
+    background-color: black;
+    padding: 0 10px;                /* немного внутреннего отступа */
+    box-sizing: border-box;
+}
+
+.card7 h1 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: normal;
+}
+
+.card7 .price7 {
+    font-weight: bold;
+    color: white;
+}
+
+.price7 {
+    background-color: #e01b1b;
+    padding: 22px 14px;
+    position: relative;
+    left: 10px;
+}
+
 
 .shop_buttons ul {
     display: flex;
