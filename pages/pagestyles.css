@@ -70,9 +70,72 @@ a {
 .car_bg {
     background-image: url(../images/main_image.jpg);
     width: 100%;
-    height: 75vh;
+    height: 720px;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    bottom: 200px;
+    bottom: 250px;
+}
+
+.main_t {
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    left: 20%;
+    text-shadow: 2px 1px 5px black;
+}
+
+.main_text h1 {
+  font-size: 110px;
+  color: #8a8484;
+  margin: 0;
+  position: relative;
+  font-family: Pacifico;
+  
+}
+
+.main_text h2 {
+  font-size: 32px;
+  color: #b01c1c;
+  margin: 10px 0 0 0;
+  position: relative;
+  left: 185px;
+  bottom: 45px;
+  text-transform: uppercase;
+}
+
+.red_box {
+    position: relative;
+    display: flex;
+}
+
+.car_box {
+    position: relative;
+    width: 75rem;
+    min-height: 84rem; /* вместо height */
+    background-color: #4d0404;
+    border: 2px solid #8f0606;
+    z-index: 4;
+    bottom: 10%;
+}
+
+.shop_section {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: -250px;
+}
+
+.red_bg {
+    background-image: url(../images/wall_image.jpg);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 3;
+}
+
+.red_line {
+    border-top: 8px solid #a30808;
 }
