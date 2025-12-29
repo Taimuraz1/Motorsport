@@ -109,16 +109,6 @@ a {
     display: flex;
 }
 
-.car_box {
-    position: relative;
-    width: 75rem;
-    min-height: 84rem; /* вместо height */
-    background-color: #4d0404;
-    border: 2px solid #8f0606;
-    z-index: 4;
-    bottom: 10%;
-}
-
 .shop_section {
     display: flex;
     justify-content: center;
@@ -136,6 +126,32 @@ a {
     z-index: 3;
 }
 
+.car_box {
+    position: relative;
+    width: 75rem;
+    min-height: 84rem; /* вместо height */
+    background-color: #4d0404;
+    border: 2px solid #8f0606;
+    z-index: 4;
+    bottom: 10%;
+}
+
 .red_line {
     border-top: 8px solid #a30808;
+}
+
+.suzume_page img {
+    width: 100px;
+    height: 100px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.logo h1 {
+    margin-left: 10px;
 }
