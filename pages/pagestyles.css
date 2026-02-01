@@ -186,3 +186,90 @@ a {
 .car_image img {
     width: 700px;
 }
+
+.colors_menu {
+    display: flex;
+    margin-top: 25px;
+    gap: 50px;
+}
+
+.color_red {
+    border-radius: 50%;
+    background-color: #cc1228;
+    width: 52px;
+    height: 52px;
+}
+
+.color_pink {
+    border-radius: 50%;
+    background-color: #f51dd1;
+    width: 52px;
+    height: 52px;
+}
+
+.color_yellow {
+    border-radius: 50%;
+    background-color: #f9fc17;
+    width: 52px;
+    height: 52px;
+}
+
+.color_orange {
+    border-radius: 50%;
+    background-color: #eda71a;
+    width: 52px;
+    height: 52px;
+}
+
+.colors_menu2 {
+    display: flex;
+    margin-top: 30px;
+    gap: 50px;
+}
+
+.color_green {
+    border-radius: 50%;
+    background-color: #3af24d;
+    width: 52px;
+    height: 52px;
+}
+
+.color_blue {
+    border-radius: 50%;
+    background-color: #181fed;
+    width: 52px;
+    height: 52px;
+}
+
+.color_black {
+    border-radius: 50%;
+    background-color: #212126;
+    width: 52px;
+    height: 52px;
+    border: 2px solid gray;
+}
+
+.color_white {
+    border-radius: 50%;
+    background-color: white;
+    width: 52px;
+    height: 52px;
+}
+
+.desk_stats {
+    display: inline-block;
+}
+
+.desk_stats h1{
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.capa {
+    display: flex;
+    margin-top: 16px;
+}
+
+.capa p {
+    font-size: 20px;
+}
