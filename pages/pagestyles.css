@@ -140,28 +140,49 @@ a {
     border-top: 8px solid #a30808;
 }
 
-.suzume_page img {
+.vapid_page img {
     width: 100px;
-    height: 100px;
+    height: 86px;
 }
 
 .logo {
     display: flex;
     align-items: center;
     margin-left: 30px;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 .logo h1 {
     color: white;
     text-transform: uppercase;
-    margin-left: 15px;
+    margin-left: 25px;
     font-size: 36px;
+    font-weight: 100;
 }
 
 .logo p {
     margin-left: auto;
-    margin-right: 25px;
+    margin-right: 30px;
     font-size: 36px;
     color: white;
+}
+
+.description {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.desk_p {
+    display: inline-block;
+    color: white;
+    font-size: 22px;
+}
+
+.car_image {
+    float: right;
+    margin-right: 30px;
+}
+
+.car_image img {
+    width: 700px;
 }
