@@ -41,6 +41,7 @@
                     </div>
                 </div>
                 <div class="description">
+                    <div class="car_image"><img src="car_image/vapid.jpg"></div>
                     <div class="desk_p">
                         <p>Этот автомобиль был задуман как<br>
                         прототип только для гоночных трасс -<br>
@@ -71,20 +72,33 @@
                             <div class="color_black"></div>
                             <div class="color_white"></div>
                         </div>
-
-                        <div class="desk_stats">
-                            <h1><br>Статистика транспортного <br>средства</h1></div>
-                            <div class="capa">
-                                <p>Скорость</p>
-                                
-                            </div>
-                    </div>
-                    <div class="car_image">
-                        <img src="car_image/vapid.jpg"
+                        <div class="statistic">
+                            <p><br>Статистика транспортного<br>средства</p>
+                        </div>
+                        <div class="speed">
+                            <label for="speed">Скорость</label>
+                            <progress id="speed" max="100" value="94"></progress>
+                        </div>
+                        <div class="boost">
+                            <label for="boost">Ускорение</label>
+                            <progress id="boost" max="100" value="97"></progress>
+                        </div>
+                        <div class="braking">
+                            <label for="braking">Торможение</label>
+                            <progress id="braking" max="100" value="15"></progress>
+                        </div>
+                        <div class="control">
+                            <label for="control">Управление</label>
+                            <progress id="control" max="100" value="100"></progress>
+                        </div>
+                        <div class="buy_button">
+                            <a href="#"><button class="button">Заказать</button></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </body>
 </html>

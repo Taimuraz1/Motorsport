@@ -246,7 +246,7 @@ a {
     background-color: #212126;
     width: 52px;
     height: 52px;
-    border: 2px solid gray;
+    border: 3px solid gray;
 }
 
 .color_white {
@@ -256,20 +256,53 @@ a {
     height: 52px;
 }
 
-.desk_stats {
-    display: inline-block;
+.speed {
+    margin-top: 15px;
 }
 
-.desk_stats h1{
-    font-size: 24px;
-    font-weight: normal;
+.speed progress {
+    margin-left: 15%;
 }
 
-.capa {
-    display: flex;
-    margin-top: 16px;
+.boost progress {
+    margin-left: 12%;
 }
 
-.capa p {
+.boost {
+    margin-top: 5px;
+}
+
+.braking progress {
+    margin-left: 7%;
+}
+
+.braking {
+    margin-top: 5px;
+}
+
+.control progress {
+    margin-left: 8%;
+}
+
+.control {
+    margin-top: 5px;
+}
+
+.buy_button {
+    margin-top: 25px;
+}
+
+.buy_button .button {
+    padding: 16px 32px;
+    width: 380px;
+    background-color: #d10f0f;
+    text-align: center;
+    border: none;
     font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    opacity: 0.6;
+    transition: 0.3s;
 }
+
+.button:hover {opacity: 1;}
