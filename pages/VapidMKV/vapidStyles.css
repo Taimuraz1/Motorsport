@@ -68,7 +68,7 @@ a {
 
 /* ЗАДНИЙ ФОН С АВТО */
 .car_bg {
-    background-image: url(../images/main_image.jpg);
+    background-image: url(../../images/main_image.jpg);
     width: 100%;
     height: 720px;
     background-repeat: no-repeat;
@@ -117,7 +117,7 @@ a {
 }
 
 .red_bg {
-    background-image: url(../images/wall_image.jpg);
+    background-image: url(../../images/wall_image.jpg);
     width: 100%;
     height: 100%;
     position: absolute;
@@ -303,6 +303,7 @@ a {
     color: white;
     opacity: 0.6;
     transition: 0.3s;
+    cursor: url(../images/cursor.cur), pointer;
 }
 
 .button:hover {opacity: 1;}
