@@ -109,6 +109,7 @@ a {
     display: flex;
 }
 
+/* СЕКЦИЯ С КАРТОЧКОЙ АВТО */
 .shop_section {
     display: flex;
     justify-content: center;
@@ -140,7 +141,7 @@ a {
     border-top: 8px solid #a30808;
 }
 
-.ubermacht_page img {
+.banshee_page img {
     width: 100px;
     height: 86px;
 }
@@ -187,6 +188,7 @@ a {
     width: 700px;
 }
 
+/* МЕНЮ ВЫБОРА ЦВЕТА АВТО */
 .colors_menu {
     display: flex;
     margin-top: 25px;
